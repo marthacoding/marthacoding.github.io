@@ -1,0 +1,120 @@
+{
+	"users":[
+	{
+	  "userId":1,
+	  "user":"marthamoreno",
+	  "firstName":"Martha",
+	  "lastName":"Moreno",
+	  "bills":[
+		  {"month": "January",
+		  "balance": 200.00,
+		  "dueDate": "02/15/2022",
+		  "paid": true
+		  },
+		  {"month": "February",
+		  "balance": 90.00,
+		  "dueDate": "03/15/2022",
+		  "paid": true
+		  },
+		  {"month": "March",
+		  "balance": 75.00,
+		  "dueDate": "04/15/2022",
+		  "paid": true
+		  },
+		  {"month": "April",
+		  "balance": 90.00,
+		  "dueDate": "05/15/2022",
+		  "paid": true
+		  },
+		  {"month": "May",
+		  "balance": 100.00,
+		  "dueDate": "06/15/2022",
+		  "paid": true
+		  },
+		  {"month": "June",
+		  "balance": 90.00,
+		  "dueDate": "07/15/2022",
+		  "paid": true
+		  }, 
+		  {"month": "July",
+		  "balance": 100.00,
+		  "dueDate": "08/15/2022",
+		  "paid": true
+		  },
+		  {"month": "August",
+		  "balance": 90.00,
+		  "dueDate": "09/15/2022",
+		  "paid": true
+		  },
+		   {"month": "September",
+		  "balance": 90.00,
+		  "dueDate": "10/15/2022",
+		  "paid": false
+		  },
+		   {"month": "October",
+		  "balance": 600.00,
+		  "dueDate": "11/15/2022",
+		  "paid": false
+		  }]
+	  },
+	{
+	  "userId":2,
+	  "user":"marthamoreno2",
+	  "firstName":"Martha2",
+	  "lastName":"Moreno2",
+	  "bills":[
+		  {"month": "january",
+		  "balance": 120.00,
+		  "dueDate": "02/15/2022",
+		  "paid": true
+		  },
+		  {"month": "february",
+		  "balance": 150.00,
+		  "dueDate": "02/15/2022",
+		  "paid": true
+		  },
+		  {"month": "March",
+		  "balance": 75.00,
+		  "dueDate": "04/15/2022",
+		  "paid": true
+		  },
+		  {"month": "April",
+		  "balance": 90.00,
+		  "dueDate": "05/15/2022",
+		  "paid": true
+		  },
+		  {"month": "May",
+		  "balance": 100.00,
+		  "dueDate": "06/15/2022",
+		  "paid": true
+		  },
+		  {"month": "June",
+		  "balance": 90.00,
+		  "dueDate": "07/15/2022",
+		  "paid": true
+		  }, 
+		  {"month": "July",
+		  "balance": 100.00,
+		  "dueDate": "08/15/2022",
+		  "paid": true
+		  },
+		  {"month": "August",
+		  "balance": 90.00,
+		  "dueDate": "09/15/2022",
+		  "paid": true
+		  },
+		   {"month": "September",
+		  "balance": 90.00,
+		  "dueDate": "10/15/2022",
+		  "paid": false
+		  },
+		   {"month": "October",
+		  "balance": 600.00,
+		  "dueDate": "11/15/2022",
+		  "paid": false
+		  }]
+	  }
+	]
+		
+	
+}
