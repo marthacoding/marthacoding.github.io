@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://www.public.asu.edu/mgmoren7/Cruises.xml"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Cruises">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="1" maxOccurs="unbounded" name="Cruise">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="ParentCompany" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="Name" type="xs:string" minOccurs="1" maxOccurs="1" />
+							<xs:element name="Reservation" minOccurs="1" maxOccurs="1">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="1"/>
+										<xs:element name="Url" type="xs:string" minOccurs="1" maxOccurs="1"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Headquarters">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1" />
+										<xs:element name="State" type="xs:string" minOccurs="1" maxOccurs="1" />
+									</xs:sequence>
+									<xs:attribute name="Zip" type="xs:unsignedInt" use="required" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="DeparturePorts">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element maxOccurs="unbounded" name="Port" type="xs:string" />
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="FoundedIn" type="xs:unsignedShort" use="optional" />
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
