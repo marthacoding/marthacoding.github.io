@@ -1,5 +1,3 @@
-
-<?xml version="1.0" encoding="utf-8"?>
 <xs:schema
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="https://marthacoding.github.io/project4/Cruises.xml"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema">
