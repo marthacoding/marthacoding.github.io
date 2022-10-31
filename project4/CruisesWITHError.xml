@@ -9,6 +9,7 @@
 		<Reservation>
 			<Phone>1-800-CARNIVAL</Phone>
 			<Url>www.carnival.com</Url>
+			<Contact>Error Data</Contact>
 		</Reservation>
 		<Headquarters Zip="33178">
 			<City>Miami</City>
