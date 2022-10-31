@@ -1,6 +1,5 @@
 
 
-<Cruises
 	xmlns="https://marthacoding.github.io/project4/Cruises.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Cruise FoundedIn="1972">
@@ -181,4 +180,4 @@
 			<Port>Dubai, UAE</Port>
 		</DeparturePorts>
 	</Cruise>
-</Cruises>
+
