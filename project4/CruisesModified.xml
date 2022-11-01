@@ -3,7 +3,7 @@
 <Cruises
 	xmlns="https://marthacoding.github.io/project4/Cruises.xml"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	<Cruise xsi:FoundedIn="1972">
+	<Cruise FoundedIn="1972">
 		<ParentCompany>Carnival Corporation</ParentCompany>
 		<Name>Carnival Cruise Line</Name>
 		<Reservation>
