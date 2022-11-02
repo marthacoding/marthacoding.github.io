@@ -1,0 +1,11 @@
+
+https://github.com/marthacoding/marthacoding.github.io/blob/main/project4/Cruises.xml
+https://github.com/marthacoding/marthacoding.github.io/blob/main/project4/Cruises.xsd
+
+https://marthacoding.github.io/project4/Cruises.xml
+https://marthacoding.github.io/project4/CruisesWITHError.xml
+https://marthacoding.github.io/project4/Cruises.xsd
+
+WebClient client = new WebClient(); 
+           string xmlUrl1 = "https://marthacoding.github.io/project4/Cruises.xml";//comment this
+           string xmlData = client.DownloadString(xmlUrl1);//here change to xmlUrl
